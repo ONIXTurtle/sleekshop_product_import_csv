@@ -1,0 +1,84 @@
+Start of Logging ...
+Upload Started:
+
+
+Array
+(
+    [licence_username] => ONIXTurtle_1KQQY406wwj2scC20CwN
+    [licence_password] => lBbTyuDV0wNrZEJ5ksKG
+    [licence_secret_key] => tuYZWBrYapnYHSL33Vpl
+    [request] => create_product
+    [class] => product
+    [name] => 
+    [shop_active] => 1
+    [attributes] => {"de_DE":{"name":"﻿finalImportproduct","price":"123","description":"Short description …","img1":"http://www.webhostingottawa.ca/images/test-img.jpg"}}
+    [metadata] => {"element_number":""}
+    [categories] => {"categories":"Music"}
+    [seo] => {"de_DE":{"permalink":"﻿finalImportproduct"}}
+)
+Requests_Response Object
+(
+    [body] => <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<error>
+<message>SHOPOBJECT_NAME_NOT_VALID</message>
+</error>
+
+    [raw] => HTTP/1.1 200 OK
+Date: Sun, 20 Jan 2019 21:21:48 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Server: nginx/1.10.3 (Ubuntu)
+Content-Encoding: gzip
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<error>
+<message>SHOPOBJECT_NAME_NOT_VALID</message>
+</error>
+
+    [headers] => Requests_Response_Headers Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Array
+                        (
+                            [0] => Sun, 20 Jan 2019 21:21:48 GMT
+                        )
+
+                    [content-type] => Array
+                        (
+                            [0] => text/html; charset=UTF-8
+                        )
+
+                    [server] => Array
+                        (
+                            [0] => nginx/1.10.3 (Ubuntu)
+                        )
+
+                    [content-encoding] => Array
+                        (
+                            [0] => gzip
+                        )
+
+                )
+
+        )
+
+    [status_code] => 200
+    [protocol_version] => 1.1
+    [success] => 1
+    [redirects] => 0
+    [url] => https://onixturtle.sleekshop.net/srv/service/
+    [history] => Array
+        (
+        )
+
+    [cookies] => Requests_Cookie_Jar Object
+        (
+            [cookies:protected] => Array
+                (
+                )
+
+        )
+
+)
